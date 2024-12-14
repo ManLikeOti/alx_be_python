@@ -1,5 +1,5 @@
-number1 = int(10)
-number2 = int(5)
+number1 = 10
+number2 = 5
 number1_plus_number2 = number1 + number2
 number2_minus_number1 = number1 - number2
 number1_times_number2 = number1 * number2

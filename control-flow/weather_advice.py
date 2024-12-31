@@ -1,10 +1,9 @@
-#
-weather = input("What's the weather like today?(sunny/rainy/cold): " )
-if weather == "sunny":
+Weather = input("What's the weather like today?(sunny/rainy/cold): " )
+if Weather == "sunny":
     message = "Wear a t-shirt and sunglasses."
-elif weather == "rainy":
+elif Weather == "rainy":
     message = "Don't forget your umbrella and raincoat."
-elif weather == "cold":
+elif Weather == "cold":
     message = "Make sure to wear a long coat and a scarf."
 else :
     message = "Sorry, I don't have recommendations for this weather"

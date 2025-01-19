@@ -1,5 +1,5 @@
 class Book:
-    def _init_(self, title, author):
+    def __init__(self, title, author):
         self.title = title
         self.author = author
         self._is_checked_out = True
@@ -11,7 +11,7 @@ class Book:
         pass
     
 class Library():
-    def _init_(self):
+    def __init__(self):
         self._books = []
         self.checked_book = None
 
@@ -63,5 +63,5 @@ def main():
     print("\nAvailable books after returning '1984':")
     library.list_available_books()
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     main()
